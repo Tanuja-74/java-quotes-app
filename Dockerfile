@@ -1,5 +1,5 @@
 # Use OpenJDK 17 lightweight image
-FROM openjdk:17-jdk-alpine
+FROM alpine/java:22-jdk
 
 # Set working directory
 WORKDIR /app
